@@ -103,6 +103,7 @@ span a {
   text-align: center;
   color: black;
   padding-bottom: 30px;
+  font-weight: bold;
 }
 .secon-section > div > figure > img {
   width: 100%;
