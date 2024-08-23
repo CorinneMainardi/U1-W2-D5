@@ -25,18 +25,18 @@ header nav ul li {
   text-decoration: none;
   display: inline-block;
   color: white;
-  padding-left: 35px;
+  padding-left: 50px;
   padding-top: 7px;
   padding-bottom: 7px;
 }
 header {
   margin-bottom: 40px;
-  width: 99%;
-  margin-inline: auto;
+  /* width: 99%;
+  margin-inline: auto; */
 }
 main {
-  width: 95%;
-  margin-inline: auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .orange {
   background-color: #f56600;
@@ -94,7 +94,7 @@ span a {
 }
 
 .cardImg {
-  box-shadow: 7px 7px 3px #dedede;
+  box-shadow: 7px 7px 3px #f6f8f8;
   border-radius: 25px;
   height: 45vh;
   width: 22vw;
@@ -108,10 +108,10 @@ span a {
 .secon-section > div > figure > img {
   width: 100%;
 }
-aside {
+/* aside {
   width: 99%;
   margin-inline: auto;
-}
+} */
 aside div p {
   text-align: center;
   padding: 15px;
@@ -121,10 +121,10 @@ aside div p a {
   font-size: 1.2rem;
   font-weight: bold;
 }
-footer {
+/* footer {
   width: 99%;
   margin-inline: auto;
-}
+} */
 footer figure {
   text-align: center;
   padding: 40px;
