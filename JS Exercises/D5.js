@@ -135,3 +135,11 @@ while (i < numericArray.length) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+const newArray = [];
+let string = "abcdefghilmnopqrstuvwxyz";
+
+switch (true) {
+  case "a":
+    string.indexOf("a") === g;
+}
