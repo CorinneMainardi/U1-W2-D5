@@ -1,0 +1,134 @@
+/* Your styles here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Arial, Helvetica, Sans-serif";
+  background-color: #e9edee;
+}
+.bgBlue {
+  background-color: #222f3f;
+}
+.bgBlueGray {
+  background-color: #364759;
+}
+.logo {
+  text-align: left;
+  width: 15vw;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding-left: 35px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+header {
+  margin-bottom: 40px;
+  width: 99%;
+  margin-inline: auto;
+}
+main {
+  width: 95%;
+  margin-inline: auto;
+}
+.orange {
+  background-color: #f56600;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+.orange p {
+  text-align: center;
+  color: white;
+}
+.bg-green {
+  background-image: url(../images/bg-image.png);
+  height: 30vh;
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+.bg-green h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.bg-green p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.container {
+  background-color: white;
+  margin-bottom: 40px;
+}
+.container p {
+  color: black;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+span a {
+  text-decoration: none;
+  color: #045864;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.cards {
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+.card {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 15px;
+}
+
+.cardImg {
+  box-shadow: 7px 7px 3px #dedede;
+  border-radius: 25px;
+  height: 45vh;
+  width: 22vw;
+}
+.secon-section > div > p {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.secon-section > div > figure > img {
+  width: 100%;
+}
+aside {
+  width: 99%;
+  margin-inline: auto;
+}
+aside div p {
+  text-align: center;
+  padding: 15px;
+}
+aside div p a {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+footer {
+  width: 99%;
+  margin-inline: auto;
+}
+footer figure {
+  text-align: center;
+  padding: 40px;
+}
+footer figure img {
+  width: 10vw;
+}
