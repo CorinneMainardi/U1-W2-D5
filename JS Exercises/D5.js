@@ -11,30 +11,30 @@ REGOLE
     Dato il seguente array, scrivi del codice per stampare ogni elemento dell'array in console.
 */
 const pets = ["dog", "cat", "hamster", "redfish"];
-console.log(pets[0]);
-console.log(pets[1]);
-console.log(pets[2]);
-console.log(pets[3]);
+
+for (let i = 0; i < pets.length; i++) {
+  console.log(pets[i]);
+}
+
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
-const petsSort = pets.sort();
-console.log(petsSort);
+pets.sort();
+console.log(pets);
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
-const petsReverse = pets.reverse(); // invertito ordine array originale
-console.log(petsReverse);
+console.log(pets.reverse());
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
-const petsShift = pets.shift();
-console.log(pets); //perché mi sta prendendo pets reverse, se ho fatto una costante a parte??
+const petShift = pets.shift();
+console.log(petShift); //perché mi sta prendendo pets reverse, se ho fatto una costante a parte??
 
-const petsPush = pets.push("redfish");
+pets.push(petShift);
 console.log(pets); //continua a prendere l'array errato
 
 /* ESERCIZIO 5
@@ -61,10 +61,17 @@ const cars = [
   },
 ];
 
-cars[0].licensePlate = "ab130bg";
-cars[1].licensePlate = "gz123ab";
-cars[2].licensePlate = "rs724zf";
-
+for (let i = 0; i < cars.length; i++) {
+  if (i === 0) {
+    cars[i].licensePlate = "ab130bg";
+  } else if (i === 1) {
+    cars[i].licensePlate = "gz123ab";
+  } else if (i === 2) {
+    cars[i].licensePlate = "rs724zf";
+  } else {
+    console.log("targhe finite");
+  }
+}
 console.log(cars);
 
 /* ESERCIZIO 6
@@ -92,7 +99,7 @@ const justTrims = [];
 for (let i = 0; i < cars.length; i++) {
   const carsObj = cars[i];
 
-  justTrims.push(carsObj.trims);
+  justTrims.push(carsObj.trims[0]);
 }
 console.log(" cars trim ", justTrims);
 
