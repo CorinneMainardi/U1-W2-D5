@@ -32,10 +32,11 @@ console.log(pets.reverse());
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
 const petShift = pets.shift();
-console.log(petShift); //perché mi sta prendendo pets reverse, se ho fatto una costante a parte??
+console.log(petShift);
 
 pets.push(petShift);
-console.log(pets); //continua a prendere l'array errato
+
+console.log(pets);
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
@@ -161,3 +162,19 @@ for (let i = 0; i < charactersArray.length; i++) {
   }
 }
 console.log(newArray);
+
+//oppure un'altra soluzione più "pulita e dinamica" è:
+
+const newArray2 = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  for (let k = 0; k < alphabet.length; k++) {
+    const character = charactersArray[i];
+    switch (character) {
+      case alphabet[k]:
+        newArray2.push(alphabet.indexOf(character) + 1);
+        break;
+    }
+  }
+}
+console.log(newArray2);
