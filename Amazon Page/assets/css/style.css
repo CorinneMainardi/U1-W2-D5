@@ -31,12 +31,9 @@ header nav ul li {
 }
 header {
   margin-bottom: 40px;
-  /* width: 99%;
-  margin-inline: auto; */
 }
 main {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-inline: 50px;
 }
 .orange {
   background-color: #f56600;
@@ -72,7 +69,7 @@ main {
 }
 .container p {
   color: black;
-  padding-left: 30px;
+  padding-left: 36px;
   padding-top: 30px;
   padding-bottom: 30px;
   font-weight: bold;
@@ -84,20 +81,20 @@ span a {
   font-weight: bold;
 }
 .cards {
-  padding-left: 10px;
   padding-bottom: 30px;
+  text-align: center;
 }
 .card {
   display: inline-block;
   vertical-align: top;
-  padding-left: 15px;
+  padding-inline: 15px;
 }
 
 .cardImg {
-  box-shadow: 7px 7px 3px #f6f8f8;
+  box-shadow: 7px 7px 3px rgba(122, 122, 122, 0.1);
   border-radius: 25px;
-  height: 45vh;
-  width: 22vw;
+  height: 42vh;
+  width: 21vw;
 }
 .secon-section > div > p {
   text-align: center;
