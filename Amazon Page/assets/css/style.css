@@ -105,11 +105,7 @@ span a {
 .secon-section > div > figure > img {
   width: 100%;
 }
-/* aside {
-  width: 99%;
-  margin-inline: auto;
-} */
-aside div p {
+/aside div p {
   text-align: center;
   padding: 15px;
 }
@@ -118,10 +114,7 @@ aside div p a {
   font-size: 1.2rem;
   font-weight: bold;
 }
-/* footer {
-  width: 99%;
-  margin-inline: auto;
-} */
+
 footer figure {
   text-align: center;
   padding: 40px;
