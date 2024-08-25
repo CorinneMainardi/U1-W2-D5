@@ -137,9 +137,27 @@ while (i < numericArray.length) {
 const charactersArray = ["g", "n", "u", "z", "d"];
 
 const newArray = [];
-let string = "abcdefghilmnopqrstuvwxyz";
+const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
-switch (true) {
-  case "a":
-    string.indexOf("a") === g;
+for (let i = 0; i < charactersArray.length; i++) {
+  const character = charactersArray[i];
+
+  switch (true) {
+    case character === "g":
+      newArray.push(alphabet.indexOf(character) + 1);
+      break;
+    case character === "n":
+      newArray.push(alphabet.indexOf(character) + 1);
+      break;
+    case character === "u":
+      newArray.push(alphabet.indexOf(character) + 1);
+      break;
+    case character === "z":
+      newArray.push(alphabet.indexOf(character) + 1);
+      break;
+    case character === "d":
+      newArray.push(alphabet.indexOf(character) + 1);
+      break;
+  }
 }
+console.log(newArray);
