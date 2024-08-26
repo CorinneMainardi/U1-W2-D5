@@ -19,14 +19,21 @@ for (let i = 0; i < pets.length; i++) {
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
-pets.sort();
-console.log(pets);
+
+//dopo il ripasso odierno, ho preferito creare altre variabili e modificare le nuove variabili, invece che modificare la variabile iniziale
+
+petsSort = structuredClone(pets);
+petsSort.sort();
+console.log(petsSort);
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
+petsReverse = structuredClone(pets); // ordine invertito dell'array principale
+console.log(petsReverse.reverse());
 
-console.log(pets.reverse());
+petsRevAlph = structuredClone(petsSort); // ordine alfabetico invertito
+console.log(petsRevAlph.reverse());
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
